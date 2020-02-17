@@ -27,10 +27,10 @@ module.exports = {
     host: '0.0.0.0',
     port: 8080,
     https: false,
-    // proxy: 'http://10.10.10.30:8000'
-    // proxy: 'http://192.168.2.8:8000'
-    proxy: 'https://whby.tenv.dsdiot.com'
-    // proxy: 'http://192.168.10.123:9000'
+    // proxy: 'https://whby.tenv.dsdiot.com'
+
+    // 路由中的whapi前缀配置在这个文件中 whby_Web_PC/src/common/http.js
+    proxy: 'http://127.0.0.1:8000'
   },
   css: {
     loaderOptions: {
